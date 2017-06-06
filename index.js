@@ -2,7 +2,7 @@ function doToElementsInArray(array, callback) {
   array.forEach(callback)
 }
 
-function changeCompletely(element, index, array) {
+function changeCompletely(index, array) {
   array[index] = (Math.random() * 100).toString() + '!!!'
 }
 
